@@ -22,7 +22,12 @@ p {
 
 /* Put a border around your image */
 img {
+    display: block;
     border: 5px solid #ee9b00;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }
 
 /* Change the font-family of your list */
